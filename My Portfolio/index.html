@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waqi Khan | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="portfolio">My Portfolio</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <!-- -------------------------HOME SECTION------------------------------ -->
+        <section class="home" id="home">
+            <div class="home-cont">
+                <div class="home-text">
+                    <h3>Hey, I'am</h3>
+                    <h1>Waqi Khan</h1>
+                    <h3 class="skill">
+                        "And I'am a"
+                        <span class="animated-text">
+                            <span>Frontend Developer</span>
+                            <span>UI/UX Developer</span>
+                        </span>
+                    </h3>
+                    <p>I am B.Tech CSE (2025) graduate from Uttaranchal University, Dehradun passionate about clean,
+                        responsive
+                        UI and real-world problem solving. Always building, always evolving.</p>
+                    <div class="sc-icons">
+                        <a href="https://www.instagram.com/khanwaqi_official/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/waqi-khan-524207365" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/waqikhan18?s=21" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                    <a href="assets/WAQI-KHAN-Resume.pdf.pdf" download class="download-bttn">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+                <div class="profile">
+                    <img src="assets/images/profile.img" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------------------------------ABOUT SECTION------------------------------ -->
+        <section class="about" id="about">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="assets/images/profile.img" alt="">
+                </div>
+                <div class="about-text">
+                    <h2>About <span>Me</span></h2>
+                    <h3>Tech Enthusiast 💻 | Creative Thinker 🎨</h3>
+                    <input type="checkbox" id="readtoggle">
+                    <p class="blog">Hello! I'm <strong>Waqi Khan</strong>, a passionate front-end developer Completed My
+                        Graduation in B.Tech-Computer
+                        Science. I specialize in HTML, CSS, responsive web design, and have hands-on experience with
+                        Adobe
+                        Photoshop for visual content. I’ve built multiple projects that reflect both technical skills
+                        and design
+                        sensibility. I love transforming ideas into sleek, functional interfaces. Always eager to learn
+                        and
+                        grow, I aim to craft user experiences that are not just usable—but memorable.</p>
+                    <label for="readtoggle" class="readmore-bttn">Read More</label>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------------SERVICES SECTION------------------------------------ -->
+        <section class="services" id="services">
+            <h2>My <span>Services</span> </h2>
+            <div class="cards">
+                <div class="card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p> I craft responsive, clean websites using HTML, CSS & modern design — tailored to your brand.
+                    </p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>UI/UX Focused Front-End</h3>
+                    <p>I design clean, user-friendly interfaces that enhance experience and keep users engaged.</p>
+                </div>
+            </div>
+        </section>
+        <!-- ----------------------------------------------PROJECT SECTION------------------------------------------- -->
+        <section class="projects" id="projects">
+            <h2>My <span>Projects</span></h2>
+            <div class="projects-container">
+
+                <div class="project ">
+                    <div class="tv-frame">
+                        <img src="assets/images/tv.png" alt="netflix clone">
+                        <video src="assets/videos/netflix-clone.mp4" autoplay muted loop></video>
+                        <div class="layer">
+                            <h4>Netflix Clone</h4>
+                            <p>Developed a Netflix-inspired landing page using pure HTML and CSS, featuring responsive
+                                layouts and modern UI design.Focused on pixel-perfect styling, smooth alignment, and a
+                                clean
+                                user experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project ">
+                    <div class="tv-frame">
+                        <img src="assets/images/tv.png" alt="">
+                        <video src="assets/videos/pricing-card.mp4" autoplay muted loop></video>
+                        <div class="layer">
+                            <h4>Pricing Cards</h4>
+                            <p>Designed a responsive pricing plans section using HTML and CSS, showcasing multiple tiers
+                                with
+                                clean card layouts.Emphasized modern styling, hover effects, and mobile-friendly
+                                responsiveness.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project ">
+                    <div class="tv-frame">
+                        <img src="assets/images/tv.png" alt="">
+                        <video src="assets/videos/ultraedit.mp4" autoplay muted loop></video>
+                        <div class="layer">
+                            <h4>UltraEdit Website</h4>
+                            <p>Recreated the UltraEdit website landing page using HTML and CSS, focusing on pixel-perfect layout & typography
+                                .Implemented responsive design to ensure a consistent experience across all the devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact <span>Me</span></h2>
+            <form action="contact.php" method="post">
+                <div class="input-box">
+                    <input type="text" name="First_name" placeholder="First Name" required>
+                    <input type="text" name="Last_name" placeholder="Last Name" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="number" name="Mobile_number" placeholder="Mobile Number" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @Kwaqi18 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
