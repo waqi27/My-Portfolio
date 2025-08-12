@@ -9,7 +9,7 @@
   box-sizing: border-box;
   border: none;
   scroll-behavior: smooth;
-  /* scroll-snap-type: y mandatory; */
+  scroll-snap-type: y mandatory;
   /* height: 100%; */
 }
 
@@ -514,6 +514,7 @@ strong {
 .footer{
   background-color: #12141a;
  padding: 20px 40px;
+ scroll-snap-align: start;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -640,3 +641,4 @@ strong {
     width: 100%;
   }
 }
+
