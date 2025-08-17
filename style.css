@@ -651,6 +651,14 @@ strong {
     height: 64%;
   }
 
+  .animated-text {
+    height: 32px;
+  }
+
+  .cards {
+    padding: 30px;
+    width: 100%;
+  }
   .card {
     padding: 30px;
     width: 100%;
@@ -672,4 +680,5 @@ padding: 100px;
     padding: 60px;
   }
 }
+
 
