@@ -524,13 +524,24 @@ strong {
   font-size: 1.1rem;
 }
 
-/* 📱 Mobile Devices (max 768px) */
+
+@media (max-width: 992px) {
+  .home-text {
+    min-width: auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+}
+
 @media (max-width: 768px) {
-  
-  /* Header */
   .header {
     flex-direction: column;
     padding: 15px 20px;
+  }
+
+  .header .portfolio {
+    font-size: 1.5rem;
   }
 
   .navbar ul {
@@ -538,21 +549,16 @@ strong {
     gap: 15px;
   }
 
-  /* Home Section */
+  /* --------------------------------------------HOME SECTION----------------------------------------- */
   .home {
+    flex-direction: column;
     padding: 30px 20px;
     height: auto;
   }
 
   .home-text {
-    min-width: 100%;
-    text-align: center;
     margin-left: 0;
-    align-items: center;
-  }
-
-  .home-text h1 {
-    font-size: 2rem;
+    min-width: 100%;
   }
 
   .profile img {
@@ -560,11 +566,14 @@ strong {
     height: 200px;
   }
 
-  /* About Section */
   .about {
     flex-direction: column;
     padding: 60px 20px;
     height: auto;
+  }
+
+  .about-image img {
+    width: 250px;
   }
 
   .about-container {
@@ -572,7 +581,14 @@ strong {
     gap: 30px;
   }
 
-  /* Projects */
+  .services {
+    height: 100%;
+  }
+
+  .projects {
+    height: 100%;
+  }
+
   .projects-container {
     flex-direction: column;
     align-items: center;
@@ -590,7 +606,6 @@ strong {
     height: 65%;
   }
 
-  /* Contact Form */
   .contact {
     padding: 40px 20px;
     height: auto;
@@ -610,7 +625,6 @@ strong {
 }
 
 @media (max-width: 480px) {
-
   .home-text h1 {
     font-size: 1.6rem;
   }
@@ -639,6 +653,22 @@ strong {
   .card {
     padding: 30px;
     width: 100%;
+  }
+}
+@media(min-width: 800px){
+  .services{
+    height: 90vh;
+padding: 100px;
+  }
+  .about{
+    height: 90vh;
+  }
+  .home{
+    height: 90vh;
+  }
+  .contact{
+    height: 90vh;
+    padding: 60px;
   }
 }
 
